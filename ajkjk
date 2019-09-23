@@ -1,0 +1,59 @@
+[33mcommit f9faf10e7a3026756484d65923d1e33caac176ab[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;32msign-up[m[33m)[m
+Author: guo <1073827727@qq.com>
+Date:   Thu Sep 19 09:42:10 2019 +0000
+
+    用户注册表单
+
+[33mcommit 8bff5408f81956ed63eba7c505a4bcf8564bf4b3[m
+Author: guo <1073827727@qq.com>
+Date:   Thu Sep 19 09:18:00 2019 +0000
+
+    用户显示页面
+
+[33mcommit 43162bfc3adf347a57a38b5975c6cf6b53603c9d[m
+Author: guo <1073827727@qq.com>
+Date:   Thu Sep 19 06:57:47 2019 +0000
+
+    move user model
+
+[33mcommit 7ca1906b998afabea5ca851e1c979a0958a858f1[m
+Author: guo <1073827727@qq.com>
+Date:   Thu Sep 19 00:58:08 2019 +0000
+
+    z注册页面
+
+[33mcommit 71a19b1d60ea8b780df9fda6439473cd1c99dbc7[m[33m ([m[1;32mfilling-layout-style[m[33m)[m
+Author: guo <1073827727@qq.com>
+Date:   Wed Sep 18 09:50:31 2019 +0000
+
+    命名路由
+
+[33mcommit e4e68bb80d22828241e5fd22aab95d2c36859a3a[m
+Author: guo <1073827727@qq.com>
+Date:   Wed Sep 18 09:36:21 2019 +0000
+
+    切割头部和尾部子视图
+
+[33mcommit 5d8fae221f7656d3905bdcef91c6f03add979630[m
+Author: guo <1073827727@qq.com>
+Date:   Wed Sep 18 09:08:50 2019 +0000
+
+    初始化样式
+
+[33mcommit fe03479d9f7ace99346ba742f9a6ad878080aa4d[m[33m ([m[1;32mstatic-pages[m[33m)[m
+Author: guo <1073827727@qq.com>
+Date:   Wed Sep 18 06:44:48 2019 +0000
+
+    base view
+
+[33mcommit a9b37eaa5604d7894f3ae22ca31a37c70fe92ef5[m
+Author: guo <1073827727@qq.com>
+Date:   Wed Sep 18 02:56:12 2019 +0000
+
+    add .editorconfig
+
+[33mcommit 13b4df5b3dac7a98f44585cb3af990599051e43c[m
+Author: guo <1073827727@qq.com>
+Date:   Wed Sep 18 02:46:18 2019 +0000
+
+    initial conmit
