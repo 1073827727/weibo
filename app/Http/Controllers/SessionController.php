@@ -11,6 +11,7 @@ class SessionController extends Controller
     {
         return view('session.create');
     }
+
     public function store(Request $request){
         $credentials = $this->validate($request,[
             'email' => 'required|email|max:255',
@@ -26,4 +27,15 @@ class SessionController extends Controller
             return redirect()->back()->withInput();
         }
     }
+
+    public function destory(){
+        Auth::logout();
+        session()->flash('success','成功推出');
+        return redirect('login');
+
+    }
+
+
+
+
 }
