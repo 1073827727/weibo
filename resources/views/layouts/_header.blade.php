@@ -5,6 +5,7 @@
         <ul class="navbar-nav justify-content-end">
           @if (Auth::check())
           <li class="nav-item"><a class="nav-linkv" href="#">用户列表</a></li>
+          <li class="nav-item"><a class="nav-linkv" href="{{ route('users.edit',Auth::user())}}">编辑</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{ Auth::user()->name }}
