@@ -18,10 +18,11 @@
             <input type="text" name="email" class="form-control" value="{{ old('email') }}">
           </div>
 
-          <div class="form-group">
-            <label for="password">密码：</label>
+           <div class="form-group">
+            <label for="password">密码（<a href="{{ route('password.request') }}">忘记密码</a>）：</label>
             <input type="password" name="password" class="form-control" value="{{ old('password') }}">
           </div>
+
           <div class="form-group">
             <div class="form-check">
               <input type="checkbox" class="form-check-input" name="remember" id="exampleCheck1">
