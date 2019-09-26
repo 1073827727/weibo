@@ -27,6 +27,16 @@ class StatusesController extends Controller
 
     }
 
+    public function destroy(status $status){
+        $this->authorize('destroy',$status);
+        //删除授权的检测，不通过会抛出 403 异常
+        $status->delete();
+        //调用 Eloquent 模型的  delete  方法对该微博进行删除
+        session()->flash('success','微博已被成功删除');
+        return redirect()->back();
+
+    }
+
 
 
 
