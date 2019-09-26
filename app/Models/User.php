@@ -38,6 +38,15 @@ class User extends Authenticatable
 
     }
 
+    public function statuses(){
+        //指明每个用户可对应多个微博
+        return $this->hasMany(status::class);
+    }
+
+
+
+
+
     /**
      * The attributes that should be cast to native types.
      *
@@ -51,6 +60,8 @@ class User extends Authenticatable
         $hash = md5(strtolower(trim($this->attributes['email'])));
         return "http://www.gravatar.com/avatar/$hash?s=$size";
     }
+
+
 
 
 }
