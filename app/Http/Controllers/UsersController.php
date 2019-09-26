@@ -36,7 +36,10 @@ class UsersController extends Controller
 
     public function show(User $user)
     {
-        return view('users.show', compact('user'));
+        $statuses = $user->statuses()->orderBy('created_at','desc')->paginate(10);
+        //取出之前关联数据表一对多：一个用户关联多条微博，微博数据按时间倒数排序
+        return view('users.show', compact('user','statuses'));
+        //compact接收多个参数，将$user数据，$statuses数据传到视图上
     }
 
     public function store(Request $request)
