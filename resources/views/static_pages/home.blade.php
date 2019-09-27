@@ -16,6 +16,9 @@
         <section class="user_info">
         </section>
       </aside>
+        <section class="stats mt-2">
+          @include('shared._stats', ['user' => Auth::user()])
+        </section>
     </div>
   @else
     <div class="jumbotron">
